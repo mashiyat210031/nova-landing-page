@@ -1,11 +1,12 @@
-/* Reset some default spacing */
+/* -------------------------
+   RESET + GLOBAL STYLES
+------------------------- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Set a global font and background */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -13,28 +14,36 @@ body {
   line-height: 1.6;
   padding: 20px;
 }
+
+/* -------------------------
+   HEADER + NAVIGATION
+------------------------- */
 header {
-  background-color: #222;
+  background-color: #1e1e1e;
   color: white;
-  padding: 20px;
+  padding: 30px 20px;
   text-align: center;
 }
 
 nav a {
-  color: #0ff;
+  color: #00e0ff;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 15px;
   font-weight: bold;
+  font-size: 16px;
 }
 
 nav a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 
+/* -------------------------
+   HERO SECTION
+------------------------- */
 .hero {
   text-align: center;
   padding: 60px 20px;
-  background-color: #e0f7fa; /* optional: adds a light background */
+  background-color: #e0f7fa;
 }
 
 .hero h2 {
@@ -45,32 +54,39 @@ nav a:hover {
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero a {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #0ff;
+  padding: 12px 24px;
+  background-color: #00e0ff;
   color: #000;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
 .hero a:hover {
   background-color: #00cccc;
 }
 
+/* -------------------------
+   SECTION BOX STYLES
+------------------------- */
 .centered-box {
-  width: 80%; /* Adjust width as needed */
-  max-width: 1200px; /* Maximum width */
-  margin: 40px auto; /* Center horizontally and add vertical spacing */
-  padding: 20px;
-  background-color: #ffffff; /* White background */
-  border: 2px solid #ddd; /* Light gray border */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  text-align: center; /* Center text */
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .centered-box h2 {
@@ -92,4 +108,14 @@ nav a:hover {
 
 .centered-box li {
   margin-bottom: 10px;
+}
+
+/* -------------------------
+   FOOTER
+------------------------- */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 0.9rem;
 }
