@@ -119,3 +119,37 @@ footer {
   color: #777;
   font-size: 0.9rem;
 }
+/* -------------------------
+   RESPONSIVE DESIGN (MOBILE)
+------------------------- */
+@media (max-width: 600px) {
+  header {
+    padding: 20px 10px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .centered-box {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .centered-box h2 {
+    font-size: 1.4rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
