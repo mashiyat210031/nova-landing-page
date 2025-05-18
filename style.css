@@ -30,3 +30,33 @@ nav a {
 nav a:hover {
   color: #fff;
 }
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #e0f7fa; /* optional: adds a light background */
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0ff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero a:hover {
+  background-color: #00cccc;
+}
